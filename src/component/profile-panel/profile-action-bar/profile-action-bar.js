@@ -9,8 +9,8 @@ class ProfileActionBar extends Component {
         const p = this.props;
         let editButtons = p.editable ?
         (<>
-            <div onClick={p.edit} className={[profileStyles['icon'], profileStyles['edit'], profileStyles['show']].join(' ')}></div>
-            <div onClick={p.remove} className={[profileStyles['icon'], profileStyles['delete'], profileStyles['show']].join(' ')}></div>
+            <div id='edit-profile-btn' onClick={p.edit} className={[profileStyles['icon'], profileStyles['edit'], profileStyles['show']].join(' ')}></div>
+            <div id='remove-profile-btn' onClick={p.remove} className={[profileStyles['icon'], profileStyles['delete'], profileStyles['show']].join(' ')}></div>
         </>)
         : null;
 
@@ -26,10 +26,10 @@ class ProfileActionBar extends Component {
         }
 
         return <div className={[profileStyles['toolbar'], 'flex'].join(' ')}>
-            <div onClick={p.add} className={[profileStyles['icon'], profileStyles['add']].join(' ')}></div>
+            <div id='add-profile-btn' onClick={p.add} className={[profileStyles['icon'], profileStyles['add']].join(' ')}></div>
             {editButtons}
-            <div onClick={p.isFirst ? null : p.moveUp} className={upClasses.join(' ')}></div>
-            <div onClick={p.isLast ? null :p.moveDown}  className={downClasses.join(' ')}></div>
+            <div id='move-up-btn' onClick={p.isFirst ? null : p.moveUp} className={upClasses.join(' ')}></div>
+            <div id='move-down-btn' onClick={p.isLast ? null :p.moveDown}  className={downClasses.join(' ')}></div>
         </div>
     }
 }
