@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {Provider} from 'react-redux'
 import {createStore,combineReducers, applyMiddleware, compose} from 'redux'
 import profiles from './store/reducers/profiles'
-import dummy from './store/reducers/dummy'
+// import dummy from './store/reducers/dummy'
 // npm install --save redux
 
 import thunk from 'redux-thunk'

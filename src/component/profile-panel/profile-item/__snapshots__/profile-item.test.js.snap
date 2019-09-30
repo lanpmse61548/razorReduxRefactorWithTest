@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` ProfileItem should render correctly in "debug" mode 1`] = `
+Array [
+  <ProfileItem
+    id={1}
+    value={
+      Object {
+        "active": true,
+        "editable": false,
+        "icon": "default",
+        "inEditMode": false,
+        "name": "default",
+        "prevValidName": "default",
+      }
+    }
+  />,
+  <ProfileItem
+    id={2}
+    value={
+      Object {
+        "active": false,
+        "editable": false,
+        "icon": "game",
+        "inEditMode": false,
+        "name": "game",
+        "prevValidName": "game",
+      }
+    }
+  />,
+  <ProfileItem
+    id={3}
+    value={
+      Object {
+        "active": false,
+        "editable": false,
+        "icon": "movie",
+        "inEditMode": false,
+        "name": "movie",
+        "prevValidName": "movie",
+      }
+    }
+  />,
+  <ProfileItem
+    id={4}
+    value={
+      Object {
+        "active": false,
+        "editable": false,
+        "icon": "music",
+        "inEditMode": false,
+        "name": "music",
+        "prevValidName": "music",
+      }
+    }
+  />,
+  <ProfileItem
+    id={5}
+    value={
+      Object {
+        "active": false,
+        "editable": true,
+        "icon": "custom",
+        "inEditMode": false,
+        "name": "Custom",
+        "prevValidName": "Custom",
+      }
+    }
+  />,
+  <ProfileItem
+    id={6}
+    value={
+      Object {
+        "active": false,
+        "editable": true,
+        "icon": "custom",
+        "inEditMode": false,
+        "name": "demo long text demo long text demo",
+        "prevValidName": "demo long text demo long text demo",
+      }
+    }
+  />,
+  <ProfileItem
+    id={7}
+    value={
+      Object {
+        "active": false,
+        "editable": true,
+        "icon": "custom",
+        "inEditMode": false,
+        "name": "demo long texdsad",
+        "prevValidName": "demo long texdsad",
+      }
+    }
+  />,
+]
+`;

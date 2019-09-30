@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePanel should render correctly in "debug" mode 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(ProfilePanel)>
+    <ProfilePanel
+      currentProfile={1}
+      onAddProfile={[Function]}
+      onCloseAlert={[Function]}
+      onDisableEditProfile={[Function]}
+      onEditProfile={[Function]}
+      onEnableEditProfile={[Function]}
+      onMoveDown={[Function]}
+      onMoveUp={[Function]}
+      onOpenAlert={[Function]}
+      onRemoveProfile={[Function]}
+      onSetCurrentProfile={[Function]}
+      onValidateProfile={[Function]}
+      openAlert={false}
+      profiles={
+        Object {
+          "1": Object {
+            "active": true,
+            "editable": false,
+            "icon": "default",
+            "inEditMode": false,
+            "name": "default",
+            "prevValidName": "default",
+          },
+          "2": Object {
+            "active": false,
+            "editable": false,
+            "icon": "game",
+            "inEditMode": false,
+            "name": "game",
+            "prevValidName": "game",
+          },
+          "3": Object {
+            "active": false,
+            "editable": false,
+            "icon": "movie",
+            "inEditMode": false,
+            "name": "movie",
+            "prevValidName": "movie",
+          },
+          "4": Object {
+            "active": false,
+            "editable": false,
+            "icon": "music",
+            "inEditMode": false,
+            "name": "music",
+            "prevValidName": "music",
+          },
+          "5": Object {
+            "active": false,
+            "editable": true,
+            "icon": "custom",
+            "inEditMode": false,
+            "name": "Custom",
+            "prevValidName": "Custom",
+          },
+          "6": Object {
+            "active": false,
+            "editable": true,
+            "icon": "custom",
+            "inEditMode": false,
+            "name": "demo long text demo long text demo",
+            "prevValidName": "demo long text demo long text demo",
+          },
+          "7": Object {
+            "active": false,
+            "editable": true,
+            "icon": "custom",
+            "inEditMode": false,
+            "name": "demo long texdsad",
+            "prevValidName": "demo long texdsad",
+          },
+        }
+      }
+    >
+      <div
+        className="thx-drawer flex"
+      >
+        <div
+          className="main-title"
+        >
+          Profile List
+        </div>
+        <div
+          className="drawer-select flex"
+          id="profileWrapper"
+        >
+          <div
+            className="profileList scrollable"
+            id="profileList"
+          >
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={1}
+              key="1"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": true,
+                  "editable": false,
+                  "icon": "default",
+                  "inEditMode": false,
+                  "name": "default",
+                  "prevValidName": "default",
+                }
+              }
+            >
+              <div
+                className="profile-item default no-edit active"
+                key="1"
+                onClick={[Function]}
+              >
+                default
+              </div>
+            </ProfileItem>
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={2}
+              key="2"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": false,
+                  "editable": false,
+                  "icon": "game",
+                  "inEditMode": false,
+                  "name": "game",
+                  "prevValidName": "game",
+                }
+              }
+            >
+              <div
+                className="profile-item game no-edit"
+                key="2"
+                onClick={[Function]}
+              >
+                game
+              </div>
+            </ProfileItem>
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={3}
+              key="3"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": false,
+                  "editable": false,
+                  "icon": "movie",
+                  "inEditMode": false,
+                  "name": "movie",
+                  "prevValidName": "movie",
+                }
+              }
+            >
+              <div
+                className="profile-item movie no-edit"
+                key="3"
+                onClick={[Function]}
+              >
+                movie
+              </div>
+            </ProfileItem>
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={4}
+              key="4"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": false,
+                  "editable": false,
+                  "icon": "music",
+                  "inEditMode": false,
+                  "name": "music",
+                  "prevValidName": "music",
+                }
+              }
+            >
+              <div
+                className="profile-item music no-edit"
+                key="4"
+                onClick={[Function]}
+              >
+                music
+              </div>
+            </ProfileItem>
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={5}
+              key="5"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": false,
+                  "editable": true,
+                  "icon": "custom",
+                  "inEditMode": false,
+                  "name": "Custom",
+                  "prevValidName": "Custom",
+                }
+              }
+            >
+              <div
+                className="profile-item custom"
+                key="5"
+                onClick={[Function]}
+              >
+                Custom
+              </div>
+            </ProfileItem>
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={6}
+              key="6"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": false,
+                  "editable": true,
+                  "icon": "custom",
+                  "inEditMode": false,
+                  "name": "demo long text demo long text demo",
+                  "prevValidName": "demo long text demo long text demo",
+                }
+              }
+            >
+              <div
+                className="profile-item custom"
+                key="6"
+                onClick={[Function]}
+              >
+                demo long text demo long text demo
+              </div>
+            </ProfileItem>
+            <ProfileItem
+              disableEditMode={[Function]}
+              id={7}
+              key="7"
+              reference={[Function]}
+              saveRenameValue={[Function]}
+              setCurrentProfile={[Function]}
+              value={
+                Object {
+                  "active": false,
+                  "editable": true,
+                  "icon": "custom",
+                  "inEditMode": false,
+                  "name": "demo long texdsad",
+                  "prevValidName": "demo long texdsad",
+                }
+              }
+            >
+              <div
+                className="profile-item custom"
+                key="7"
+                onClick={[Function]}
+              >
+                demo long texdsad
+              </div>
+            </ProfileItem>
+            <div
+              style={
+                Object {
+                  "height": "0px",
+                  "position": "relative",
+                }
+              }
+            />
+          </div>
+          <ProfileActionBar
+            add={[Function]}
+            edit={[Function]}
+            editable={false}
+            isFirst={true}
+            isLast={false}
+            moveDown={[Function]}
+            moveUp={[Function]}
+            remove={[Function]}
+          >
+            <div
+              className="toolbar flex"
+            >
+              <div
+                className="icon add"
+                onClick={[Function]}
+              />
+              <div
+                className="icon up disabled"
+                onClick={null}
+              />
+              <div
+                className="icon down"
+                onClick={[Function]}
+              />
+            </div>
+          </ProfileActionBar>
+          <Alert
+            blur={[Function]}
+            delete={[Function]}
+            message="default"
+            open={false}
+            title="delete EQ"
+          />
+        </div>
+      </div>
+    </ProfilePanel>
+  </Connect(ProfilePanel)>
+</Provider>
+`;
